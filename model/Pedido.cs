@@ -8,8 +8,8 @@ public class Pedido
     public double ValorTotal { get; set; }
     public string Situacao { get; set; }
 
-    public Cliente Cliente { get; set; }
-    public Endereco EnderecoEntrega { get; set; }
+    public Cliente? Cliente { get; set; }
+    public Endereco? EnderecoEntrega { get; set; }
 
     public ItemDePedido[] Itens { get; set; }
     private int _qtdItens;

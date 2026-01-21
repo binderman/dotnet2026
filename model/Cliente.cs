@@ -26,6 +26,7 @@ public class Cliente
         Pedidos = new Pedido[10];
 
         _qtdEnderecos = 0;
+        _qtdPedidos = 0;
 
         InserirEndereco(endereco);
     }
@@ -40,7 +41,6 @@ public class Cliente
         return true;
     }
 
-    // Método pedido no enunciado
     public bool InserirEndereco(Endereco endereco)
     {
         if (_qtdEnderecos >= Enderecos.Length)

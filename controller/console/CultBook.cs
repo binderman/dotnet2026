@@ -5,7 +5,7 @@ public class CultBook
     private bool _logado = false;
     private bool _executando = true;
 
-    private Pedido pedido;
+    private Pedido? pedido;
 
     Livro[] livros = new Livro[]
     {
@@ -130,10 +130,10 @@ public class CultBook
         // Lê o livro escolhido do teclado
         Console.WriteLine("=== Inserir Livro no Carrinho ===");
         Console.Write("Digite o ISBN do livro para compra: ");
-        String isbn = Console.ReadLine();
+        String? isbn = Console.ReadLine();
 
         // Busca livro selecionado
-        Livro aux = null;
+        Livro? aux = null;
         for (int i = 0; i < livros.Length; i++)
         {
             if (livros[i] != null && livros[i].Isbn.Equals(isbn))
@@ -173,19 +173,5 @@ public class CultBook
         {
             Console.WriteLine("Carrinho vazio.");
         }
-    }
-
-    public void manterCarrinho(int operacao)
-    {
-        // Insere livro no carrinho
-        if (operacao == 4)
-        {
-            InserirLivro();
-        }
-        else // Visualiza o carrinho
-            if (operacao == 6)
-            {
-                VerCarrinho();
-            }
     }
 }
