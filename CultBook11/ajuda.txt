@@ -1,0 +1,59 @@
+═══════════════════════════════════════════════════════════════
+                        CULTBOOK - AJUDA
+═══════════════════════════════════════════════════════════════
+
+Bem-vindo ao CultBook, sua livraria online!
+
+FUNCIONALIDADES DISPONÍVEIS:
+
+1. LOGIN
+   - Faça login com seu usuário e senha cadastrados
+   - Necessário para efetuar compras
+
+2. CADASTRAR
+   - Crie uma nova conta de cliente
+   - Preencha seus dados pessoais e endereço
+   - Se deixar a senha em branco, uma senha será gerada automaticamente
+
+3. BUSCAR LIVROS
+   - Visualize o catálogo completo de livros
+   - Informações incluem: título, autor, preço, categoria
+   - Tipos disponíveis: Livros Físicos, E-books e Audiolivros
+
+4. INSERIR LIVRO NO CARRINHO
+   - Adicione livros ao seu carrinho de compras
+   - Digite o ISBN do livro desejado
+
+5. REMOVER LIVRO DO CARRINHO
+   - Remova itens do seu carrinho (em desenvolvimento)
+
+6. VER CARRINHO
+   - Visualize todos os itens adicionados ao carrinho
+   - Confira o valor total da compra
+
+7. EFETUAR COMPRA
+   - Finalize sua compra (requer login)
+   - Funcionalidade em desenvolvimento
+
+8. MUDAR REGIÃO E IDIOMA
+   - Altere a região e idioma do sistema
+   - Opções disponíveis:
+     * Brasil (Português - pt-BR)
+     * França (Francês - fr-FR)
+     * Estados Unidos (Inglês - en-US)
+   - Os preços serão exibidos na moeda da região selecionada
+
+9. SAIR
+   - Encerra o aplicativo
+
+═══════════════════════════════════════════════════════════════
+
+DICAS:
+- A data e hora atual são exibidas no topo do menu
+- A região atual é mostrada logo abaixo do título
+- Mantenha suas credenciais em local seguro
+- Verifique sempre os itens do carrinho antes de finalizar
+
+Para mais informações, visite: www.cultbook.app.br
+
+═══════════════════════════════════════════════════════════════
